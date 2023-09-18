@@ -50,8 +50,8 @@ def game_core_v3(number: int = 1) -> int:
       mid = (bot + top) // 2
     
     # Ваш код заканчивается здесь
-
     return count
+
 
 print('Run benchmarking for game_core_v3: ', end='')
 score_game(game_core_v3)
